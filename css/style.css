@@ -28,7 +28,7 @@ body {
 .project_paragraph>a:visited,
 .project_paragraph>a:active {
 
-	color: #a0a0a0;
+	color: #fd6d6d;
 	text-decoration: none;
 }
 
@@ -62,7 +62,6 @@ body {
 }
 
 #name {
-<<<<<<< HEAD
 	font-size: 20px;
 	margin:0px;
 }
@@ -71,9 +70,6 @@ body {
 	font-size: 20px;
 	text-decoration: underline;
   text-decoration-color: #ffaaaa;
-=======
-	font-size: 18px;
->>>>>>> parent of 2675cc3... structure
 	margin:0px;
 }
 
@@ -142,7 +138,7 @@ body {
 
 .project_paragraph {
 	width: 75%;
-	margin: 56px auto 56px auto;
+	margin: 26px auto 26px auto;
 	font-size: 18px;
 	font-weight: 200;
 	line-height: 29px;
@@ -319,7 +315,6 @@ img {
 .border {
 	border: 1px solid #e0e0e0;
 }
-<<<<<<< HEAD
 
 /*social media icons on about*/
 .fa {
@@ -338,6 +333,7 @@ img {
 		/*opacity: 0.5;*/
 		background-color: #fd6d6d;
 }
+
 
 /*blockquote*/
 .blockquote {
@@ -374,5 +370,12 @@ img {
   width: 48%;
   height: 500px;
 }
-=======
->>>>>>> parent of 2675cc3... structure
+
+.project_subheader {
+	width: 75%;
+	margin: 16px auto 16px auto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	color: #fd6d6d;
+}
