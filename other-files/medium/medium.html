@@ -1,116 +1,108 @@
-
 <!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <title>Medium App Redesign</title>
+    <link rel='stylesheet' href='../../stylesheet.css'/>
+    <link rel="icon" type="image/png" href="../../cover-images/fav.png">
+  </head>
+  <body>
+    <div class='menu-container'>
+      <div class='menu'>
+        <div class='logo'><a href='../../index.html'>Vicki Lu</a></div>
+        <div class='links'>
+          <div class='work'><a href='../../index.html'>Work</a></div>
+          <div class='play'><a href='../play.html'>Play</a></div>
+          <div class='about'><a href='../about.html'>Me</a></div>
+          <div class='resume'><a href='https://drive.google.com/file/d/1YLNjQkBGcxbbvvaaCr7JIRRjDua7BMDk/view?usp=sharing' target='_blank'>Resume</a></div>
+      </div>
+      </div>
+    </div>
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../../css/style.css">
-	<link rel="icon" type="image/png" href="../../images/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<title>Medium App Redesign</title>
-</head>
+    <div class='content-container reveal'>
+      <div class='header'>
+        <div class='title'>Medium App <br/>New Feature Concept</div>
+        <div class='subtitle'>UX/UI Design<br/></div>
+        <div class='subtitle'>Side Project</div>
+      </div>
+      <div class='space'></div>
+        <p class='project_paragraph'>
+          Let me first start by saying that Medium is one of my absolute three favorite services created
+          (the other two being Spotify and Typeform). With its minimalistic and sophisticated UI as well
+          as intuitive UX, the Medium app is nearly perfect in my eyes. However, as a user, I’ve found myself
+          wishing it did have a more extensive bookmarking system.
+        </p>
+        <a href='medium.svg' target="_blank">
+        <img style='width: 20%;'src='medium.svg'/></a>
+        <p class='project_header'>Description of Project</p>
+        <p class='project_paragraph'>
+          <subheader>Problem</subheader><br/> As of now, you can only either save articles you liked to your “Bookmarks” or
+          to your “Claps”– offering only two lists to differentiate your articles. <br/>
+        </p><p class='project_paragraph'>
+          <subheader>Solution</subheader><br/> Create a feature that allows users to categorize their favorite articles
+          into different categories like Pinterest boards or Youtube playlists. In the case of Medium, I decided
+          to categorize the bookmarks into “shelves”.
+        </p>
+        <p class='project_header'>Process and Work</p>
+        <p class='project_paragraph'>
+          <subheader>Inspiration</subheader><br/>
+          These “shelves” act as the topics in which users can sort their articles,
+          much like how you’d place similar genre books near each other on a bookshelf. The way the bookmarking
+          looks on the home page is inspired by Airbnb. I felt that the clean and straightforward look of
+          the Save to List modal window fit in quite well with Medium’s overall brand.
+        </p>
+        <a href='airbnb.svg' target="_blank">
+          <img style='width: 30%;'src='airbnb.svg'/>
+        </a>
+        <p class='project_paragraph'>
+          <subheader>High Fidelity mockups with Adobe XD</subheader><br/>
+          I recreated the Medium homepage to be more conscious of how my new feature would fit with the existing look and
+          feel. The following pictures show the three groups of pages I made changes to for the new bookmarking function.
+        </p>
+        <p class='project_paragraph'>
+          Something I did forget to add, but would be great to have, is an option to share your shelf. Medium is an
+          inherently social platform that allows anyone to write and share ideas, so I think it’s always a good idea to
+          keeping thinking about the ways we can connect people with people.
+        </p>
+<!--3 column images-->
+        <div class='photo-grid-container'>
+          <div class='photo-grid'>
+            <div class='photo-grid-item'>
+              <a href='home.svg' target="_blank">
+              <img src='home.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Home Page</subheader><br/>
+              <br/> Bookmark to multiple shelves directly from the home page
+            </p>
+            </div>
+            <div class='photo-grid-item'>
+              <a href='shelves.svg' target="_blank">
+              <img src='shelves.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Bookmarks</subheader><br/>
+              <br/>Categories organized as "shelves" on a bookcase
+            </p>
+            </div>
+            <div class='photo-grid-item'>
+              <a href='ux.svg' target="_blank">
+              <img src='ux.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Shelves</subheader><br/>
+              <br/>Articles are now organized based on similar topics
+            </p>
+            </div>
+          </div>
+        </div>
+        <iframe src="https://marvelapp.com/40g3g84?emb=1&iosapp=false&frameless=false" width="402" height="630"
+        allowTransparency="true" frameborder="0"></iframe>
+        <div class='subtitle'><a href='../../index.html#work'>Back to Work</a></div>
+        <div class='space'></div>
+    </div>
 
-<body class="project_page">
-<!--header-->
-  <div id="header_container">
-		<div id="header">
-
-			<div class="header-grid-item">
-				<p id="projectname">Medium App New Feature Concept</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-			<div class="header-grid-item links">
-				<p id="links">
-					<a href="../../index.html">Work</a>&nbsp;&nbsp;
-					<a href="../../other-files/play.html">Play</a>&nbsp;&nbsp;
-					<a href="../../other-files/about.html" >About</a>&nbsp;&nbsp;
-					<a target="_blank" href="https://drive.google.com/file/d/1TKkzHRxgb_s-xHr2uJjUELZ3OqYbQEd1/view?usp=sharing"
-					>Resume</a>
-				</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-		</div>
-	</div>
-<!--start content-->
-	<div >
-		<a href="medium-cover.png" target="_blank">
-				<img src="medium-cover.png" /></a>
-	</div>
-
-	<p class="project_paragraph">
-    Let me first start by saying that <a href="https://medium.com/" target="_blank">Medium</a> is one of my absolute three favorite services created
-		(the other two being Spotify and Typeform). With its minimalistic and sophisticated UI as well
-		as intuitive UX, the Medium app is nearly perfect in my eyes. However, as a user, I’ve found myself
-		wishing it did have a more extensive bookmarking system.
-	</p>
-  <p class="project_subheader">Description of Project</p>
-  <p class="project_paragraph">
-    <strong>Problem</strong>: As of now, you can only either save articles you liked to your “Bookmarks” or to your “Claps”– offering only two lists to differentiate your articles.
-		<br/>
-		<strong>Solution</strong>: Create a feature that allows users to categorize their favorite articles into different categories. Think Pinterest boards or Youtube playlists! In the case of Medium, I decided to categorize the bookmarks into “shelves”.
-  </p>
-
-	<p class="project_subheader">Process and Work</p>
-	<p class="project_paragraph">
-		<strong>Inspiration</strong><br/>
-		These “shelves” act as the topics in which users can sort their articles, much like how you’d place similar
-		genre books near each other on a bookshelf. The way the bookmarking looks on the home page is heavily
-		inspired by Airbnb. I felt that the clean and straightforward look of the Save to List modal window fit
-		in quite well with Medium’s overall brand.</p>
-		<div>
-			<a href="airbnb.png" target="_blank">
-					<img src="airbnb.png" /></a>
-		</div>
-	<p class="project_paragraph">
-		<strong>Low fidelity mockups</strong><br/>
-		Quick sketch of the Home and Bookmarks page, which now displays a bookcase instead of your list of
-		bookmarked articles.</p>
-		<div>
-			<a href="lowfid.jpeg" target="_blank">
-					<img src="lowfid.jpeg" /></a>
-		</div>
-	<p class="project_paragraph">
-		<strong>High fidelity mockups with Adobe XD</strong><br/>
-		I recreated the Medium homepage to be more conscious of how my new feature would fit with the existing look and feel. The following pictures show the three groups of pages I made changes to for the new bookmarking function.
-	</p>
-		<div>
-			<a href="home.png" target="_blank">
-					<img src="home.png" /></a>
-			<a href="bookmarks.png" target="_blank">
-					<img src="bookmarks.png" /></a>
-			<a href="bookmarks.png" target="_blank">
-					<img src="bookmarks.png" /></a>
-		</div>
-
-		<div class="grid project_grid" style="position: relative; height: 519.36px;">
-				<div class="grid-sizer"></div>
-				<div class="gutter-sizer"></div>
-				<div class="grid-item grid-item--width2" style="position: absolute; left: 0%; top: 36px;">
-					<a href="wireframes.png" target="_blank">
-						<img src="wireframes.png"></a></div>
-				<div class="grid-item grid-item--width3" style="position: absolute; left: 65%; top: 0px;">
-					<p class="project_paragraph">
-						The diagram to the left shows the prototype flow, which I used a lot to ensure that all the
-						functions of the new bookmarking feature would seem natural and intuitive to the user.
-						<br/><br/>Something I did forget to add, but would be great to have, is an option to share your shelf.
-						Medium is an inherently social platform that allows anyone to write and share ideas, so I think
-						it’s always a good idea to keeping thinking about the ways we can connect people with people.
-					</p></div>
-			</div>
-
-	<script src="../scripts/imagesloaded.pkgd.min.js"></script>
-	<script src="../scripts/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="../scripts/grid_setup.js"></script>
-
-</body>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+        window.sr = ScrollReveal({ reset: false});
+        sr.reveal('.reveal', { duration: 1000, distance: '50px',scale: 1,});
+        </script>
+  </body>
 </html>

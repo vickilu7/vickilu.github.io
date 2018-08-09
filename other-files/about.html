@@ -1,74 +1,99 @@
-
 <!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About – Vicki Lu</title>
+    <link rel='stylesheet' href='../stylesheet.css'/>
+    <link rel="icon" type="image/png" href="../cover-images/fav.png">
+  </head>
+  <body>
+    <div class='menu-container'>
+      <div class='menu'>
+        <div class='logo'><a href='../index.html'>Vicki Lu</a></div>
+        <div class='links'>
+          <div class='work'><a href='../index.html'>Work</a></div>
+          <div class='play'><a href='play.html'>Play</a></div>
+          <div class='about active'><a href='about.html'>Me</a></div>
+          <div class='resume'><a href='https://drive.google.com/file/d/1YLNjQkBGcxbbvvaaCr7JIRRjDua7BMDk/view?usp=sharing' target='_blank'>Resume</a></div>
+        </div>
+      </div>
+    </div>
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="icon" type="image/png" href="../images/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<title>About – Vicki Lu</title>
-</head>
+    <div class='content-container reveal'>
+      <div class='content'>
+        <div class='column2'style='margin-left:30px;' >
+          <div class='title' style='font-size: 35px; font-weight: normal;text-align: left;'>Nice to meet you!</div>
+          <div class='content-item'>
+            I'm currently a sophomore at Duke University pursuing dual majors in Computer Science and Biology.
+            I’ve been passionate about traditional art from a young age, but recently I’ve been trying to get more involved
+            with digital design, product design, and graphics. Through meeting new people and joining new groups during my first
+            year in college, I’ve discovered my interests in inclusive design and technology as well as
+            psychology and biology.
+          </div>
+          <div class='content-item'>
+            Currently seeking new internship opportunities for the summer of 2019! Let's talk. <a href="mailto:vicki.lu.777@gmail.com"> ✉️ </a>
+          </div>
+            <div class='content-item' style='margin-top: 0px;'>
+              <a href="https://www.facebook.com/vicki.lu.777" target="_blank" class="fa fa-facebook" style="color: white;"></a>
+              <a href="https://www.linkedin.com/in/vicki-lu/" target="_blank" class="fa fa-linkedin" style="color: white;"></a>
+              <a href="https://github.com/vickilu7" target="_blank" class="fa fa-github" style="color: white;"></a>
+              <a href="https://medium.com/@vickilu" target="_blank" class="fa fa-medium" style="color: white;"></a>
+              <a href="https://www.behance.net/vickilu777ab95" target="_blank" class="fa fa-behance" style="color: white;"></a>
+              <a href="https://www.instagram.com/vickilu7/" target="_blank" class="fa fa-instagram" style="color: white;"></a>
+              <a href="https://open.spotify.com/user/127339634?si=ysK6RjOpQ3eibazS6Ov27w" target="_blank" class="fa fa-spotify" style="color: white;"></a>
+            </div>
+        </div>
 
-<body class="project_page">
+          <div class='column2' style='width:47%;'>
+            <img src='../cover-images/propic.jpg'style='transform:rotate(90deg);margin-left:150px;'/>
+          </div>
+    </div>
 
-	<div id="header_container">
-		<div id="header">
+<div class='space'></div>
+    <!--look into my life-->
+    <div class='info'>
+      <div class='title' style='font-size: 35px; font-weight: normal;text-align: left;'>A look into my life</div>
+    </div>
 
-			<div class="header-grid-item">
-				<p id="name">Vicki Lu</p>
-			</div>
+      <div class='content' style='margin-left: 30px;'>
+        <div class='column'>
+          <div class='content-item'>
+          <div class='subtitle' style='text-align: left;'>my inspirations</div>
+            <a href='https://medium.com/@vickilu/has-recommended' target='_blank'>medium articles</a><br/>
+            podcast: Twenty Thousand Hertz<br/>
+            person: <a href='https://medium.com/@Soengle'>stephanie engle</a><br/>
+            coding resource: <a href='https://internetingishard.com' target="_blank"> interneting is hard</a><br/>
+            book: the joy luck club<br/>
+            artist: <a href='https://www.brittbass.com/'>britt bass</a><br/>
+            chobani yogurt rebrand
+          </div>
+        </div>
+        <div class='column'>
+          <div class='content-item'>
+          <div class='subtitle' style='text-align: left;'>what's in my pencil case</div>
+          muji 0.5 black pen<br/>muji capped gel-ink 0.38 navy pen <br/>
+            pilot g-7 mechanical pencil<br/> sharpie pen fine point<br/>
+            red, mustard, & indigo mildliners<br/> grapefruit burt's bees<br/>0.5 B lead<br/>
+            pentel hi-polymer eraser
+          </div>
+        </div>
+        <div class='column'>
+          <div class='content-item'>
+          <div class='subtitle' style='text-align: left;'>...and a little more</div>
+          language learning enthusiast <br/>NY Times crossword fan<br/>
+            only wears white, black, grey, & blue<br/>binge-watches Friends (4th time re-watching rn)<br/>
+            always types in lowercase<br/>current favorite color: sunshine yellow</div>
+          </div>
+        </div>
+    </div>
 
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+        window.sr = ScrollReveal({ reset: false});
+        sr.reveal('.reveal', { duration: 1000, distance: '50px', useDelay: 'once',scale: 1,});
+        sr.reveal(' .column', 100);
+        </script>
 
-			<div class="header-grid-item links">
-				<p id="links">
-					<a href="../index.html">Work</a>&nbsp;&nbsp;
-					<a href="../other-files/play.html">Play</a>&nbsp;&nbsp;
-					<a style="color: #fd6d6d; border-bottom: 1px solid #d0d0d0;">About</a>&nbsp;&nbsp;
-					<a target="_blank" href="https://drive.google.com/file/d/1TKkzHRxgb_s-xHr2uJjUELZ3OqYbQEd1/view?usp=sharing"
-					>Resume</a>
-				</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-		</div>
-	</div>
-
-	<p class="project_paragraph">
-		Hi, I'm Vicki! I am currently a sophomore at Duke University pursuing dual majors in
-    Computer Science and Biology. I’ve always been passionate about traditional art, but recently I’ve been trying to get
-    more involved with digital design and graphics. Through meeting new people and joining
-    new groups during my first year in college, I’ve discovered my interests in the intersection
-    of design, technology, and psychology/biology. <!--I'm a strong believer in a multidisciplinary approach
-    to solving problems, and I believe the future of healthcare improvement lies in technology.-->
-    <br><br>In my free time, I enjoy biking, reading Medium articles, doing crossword puzzles,
-    and discovering new music. I also spend a great deal of time binge watching Friends
-    (currently on my 4th time re-watching).
-	</p>
-	<p class="project_paragraph" style="text-align: center; font-size: 17px;">
-		<br/>
-			<a href="https://www.facebook.com/vicki.lu.777" target="_blank" class="fa fa-facebook" style="color: white;"></a>
-			<a href="https://www.linkedin.com/in/vicki-lu/" target="_blank" class="fa fa-linkedin" style="color: white;"></a>
-			<a href="https://github.com/vickilu7" target="_blank" class="fa fa-github" style="color: white;"></a>
-			<a href="https://www.behance.net/vickilu777ab95" target="_blank" class="fa fa-behance" style="color: white;"></a>
-			<a href="https://www.instagram.com/vickilu7/" target="_blank" class="fa fa-instagram" style="color: white;"></a>
-			<a href="https://open.spotify.com/user/127339634?si=ysK6RjOpQ3eibazS6Ov27w" target="_blank" class="fa fa-spotify" style="color: white;"></a>
-			<br/><br/>
-			Find me on social media or shoot me an email at <a href="mailto:vicki.lu.777@gmail.com">vicki.lu.777@gmail.com</a>!
-	</p>
-
-	<script src="../scripts/imagesloaded.pkgd.min.js"></script>
-	<script src="../scripts/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="../scripts/grid_setup.js"></script>
-
-</body>
+  </body>
 </html>

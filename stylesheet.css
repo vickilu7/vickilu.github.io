@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('OpenSans-Regular-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('OpenSans-Bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}
+body {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 300;
+  background-color: #F9FAFB;
+  font-size: 14px;
+}
+strong {
+  font-weight: bold;
+}
+/*end font stuff*/
+/*title screen*/
+.home-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 20px 150px 220px 150px;
+}
+.home-title strong{
+  color: #5995DA;
+}
+.home-image{
+  margin: 100px 45px 0 45px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*end title screen, start header*/
+.menu-container {
+  color: #333;
+  padding: 40px 0 90px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.links {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.active a{
+  border-bottom: 1px solid #d0d0d0;
+}
+.work a, .play a, .about a, .resume a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.work:hover, .play:hover, .about:hover, .resume:hover{
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.work, .play, .about, .resume{
+  margin-left: 20px;
+}
+/*end header*/
+
+/*about section*/
+.info{
+  display: block;
+  margin: auto 30px;
+  max-width: 60%;
+}
+.column2{
+  width: 50%
+}
+
+
+.fa {/*sm for about page*/
+	padding: 10px;
+	font-size: 15px;
+	width: 35px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	background: #333;
+	color: white;
+
+}
+
+.fa:hover {
+		background-color: #5995DA;
+    transition: .5s ease;
+}
+
+/*sm for home page*/
+.icon-grid-container .fa{
+	font-size: 17px;
+	text-align: center;
+	margin: 5px 0.5px;
+	border-radius: 50%;
+	background: none;
+
+}
+.icon-grid-container .fa:hover {
+		opacity: 0.5;
+    transition: .5s ease;
+}
+/*project page one: more photos*/
+.fullscreen{
+  margin: 45px 45px 0 45px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #EBECF0;
+  height: 700px;
+}
+
+.content-container{
+  margin: 30px 45px 30px 45px;
+}
+.content-container img, iframe{
+  display: block;
+  margin: 40px auto;
+  width: 75%;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-image{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #FD6D6D; /*pink*/
+}
+
+.content-item {
+  /*background-color: #D6E9FE;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 1;
+  font-family: 'OpenSans', sans-serif;
+  color: #5D6063;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subheader {
+  /*background-color: #5995DA;*/
+  width: 300px;
+  flex: 0.5;
+  font-family: 'OpenSans', sans-serif;
+  line-height: 15px;
+
+}
+.subheader strong{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+.subheader em{
+  font-weight: bold;
+}
+
+.subheader b{
+  font-weight: bold;
+}
+
+.content-container a{
+  color: #5995DA;
+  text-decoration: none;
+}
+.content-container a:hover{
+  color: 50%; /*lighten this*/
+  border-bottom: 1px solid #d0d0d0;
+}
+/*project page two: more text */
+.image{
+  display: flex;
+  justify-content: center;
+}
+.header{
+  display: block;
+  justify-content: center;
+
+}
+.title{
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+.subtitle, .title subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  color: rgba(93, 96, 99, .30);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle-play{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  /*color:#5D6063;*/
+  color: #333;
+  width: 35%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.project_paragraph{
+  width: 50%;
+	margin: 20px auto 20px auto;
+	line-height: 29px;
+  color: #5D6063;
+}
+
+.project_paragraph subheader{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  color: rgba(93, 96, 99, .30);
+  text-align: left;
+  text-transform: uppercase;
+}
+.project_header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  width: 50%;
+  text-align: left;
+  margin: 40px auto;
+}
+
+.space{
+  height: 60px;
+}
+/*cover pages*/
+.grid-row {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+.overlay{
+  opacity: 0.75;
+  transition: 2s ease;
+  background-color:#ffffff;
+}
+.icon-grid-item:hover .overlay{
+  opacity: 1;
+}
+/*
+.grid-item {
+  width: 32%;
+  margin: 5px 5px 5px 5px;
+  height: 98%;
+  background-color: #eaeaea;
+  position: relative;
+}
+
+.grid-item img, .grid-item2 img{
+  position:relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item img:hover{
+  opacity: 0.5;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+*/
+
+.grid-item2{ /*play page*/
+  width: 48.5%;
+  margin: 5px 5px 5px 5px;
+  height: 98%;
+  background-color: #eaeaea;    /* Medium blue */
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000;
+}
+.text strong{
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.column{ /*about page look into life */
+  width: 300px;
+  margin: 5px 5px 5px 5px;
+  height: 98%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*medium page and lose the snooze 3 columns*/
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+.photo-grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo-grid-item {
+  width: 350px;
+}
+
+/*home page 3 columns*/
+.icon-grid-container {
+  display: flex;
+  justify-content: center;
+}
+.icon-grid {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon-grid-item {
+  width: 350px;
+  position:relative;
+}
+.icon-grid-item img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  position:relative;
+}
+.icon-grid-item img:hover{
+  opacity: 0;
+  transition: 0.5s ease;
+}
+#back{
+  position:absolute;
+  top: 0.25%;
+  left: 25.5%;
+  z-index: 1;
+  opacity: 1;
+  width: 49.5%;
+}
+
+.icon-grid-item .title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  line-height: 15px;
+}
+
+.icon-grid-item subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: rgba(93, 96, 99, .30);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/*-------------------------blueprint slideshow*/
+* {box-sizing:border-box}
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default? */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activedot, .dot:hover {
+  background-color: #333;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

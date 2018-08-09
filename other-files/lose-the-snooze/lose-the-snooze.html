@@ -1,69 +1,85 @@
-
 <!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <title>Lose the Snooze</title>
+    <link rel='stylesheet' href='../../stylesheet.css'/>
+    <link rel="icon" type="image/png" href="../../cover-images/fav.png">
+  </head>
+  <body>
+    <div class='menu-container'>
+      <div class='menu'>
+        <div class='logo'><a href='../../index.html'>Vicki Lu</a></div>
+        <div class='links'>
+          <div class='work'><a href='../../index.html'>Work</a></div>
+          <div class='play'><a href='../play.html'>Play</a></div>
+          <div class='about'><a href='../about.html'>Me</a></div>
+          <div class='resume'><a href='https://drive.google.com/file/d/1YLNjQkBGcxbbvvaaCr7JIRRjDua7BMDk/view?usp=sharing' target='_blank'>Resume</a></div>
+      </div>
+      </div>
+    </div>
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../../css/style.css">
-	<link rel="icon" type="image/png" href="../../images/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<title>Lose the Snooze</title>
-</head>
+    <div class='content-container reveal'>
+      <div class='header'>
+        <div class='title'>Lose the Snooze</div>
+        <div class='subtitle'>Programming & UX/UI Design</div>
+        <div class='subtitle'>For Catalyst Team Project</div></br>
+        <div class='subtitle'>Collaborators: Faraz Yashar & Angela Moon</div>
+        <div class='space'></div>
+      </div>
+        <p class='project_paragraph'>
+          Many alarms allow us to hit snooze as many times as we wish. We've created a simple alarm clock app
+          that will actually wake you up. This app was created as part of the New Member Education process
+          for <a href='https://dukecatalyst.co/' target="_blank">Catalyst</a> (Duke social and pre-professional tech organization)
+          and was coded on XCode using JavaScript.</p>
+        <p class='project_paragraph'>
+          The camera uses image recognition to turn off alarm so we thought it'd be fun to make users point it at a toilet–
+          forcing them to go to their bathroom and get out of bed.
+          Check out our code on <a href='https://github.com/fny/lose-the-snooze' target="_blank">Github</a>.
+        </p>
 
-<body class="project_page">
-<!--header-->
-  <div id="header_container">
-		<div id="header">
+<!--3 column images-->
+        <div class='photo-grid-container'>
+          <div class='photo-grid'>
+            <div class='photo-grid-item' style='width: 300px;'>
+              <a href='start.svg' target="_blank">
+              <img src='start.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Initial Start Screen</subheader>
+            </p>
+            </div>
+            <div class='photo-grid-item'style='width: 300px;'>
+              <a href='set-time.svg' target="_blank">
+              <img src='set-time.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Set and Adjust Alarm Time</subheader>
+            </p>
+            </div>
+            <div class='photo-grid-item'style='width: 300px;'>
+              <a href='alarm.svg' target="_blank">
+              <img src='alarm.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Alarm Home</subheader>
+            </p>
+            </div>
+            <div class='photo-grid-item'style='width: 300px;'>
+              <a href='camera.svg' target="_blank">
+              <img src='camera.svg'/></a>
+              <p class='project_paragraph' style='text-align: center; font-size: 12px; line-height: 15px;'>
+              <subheader>Camera</subheader>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class='space'></div>
+        <div class='subtitle'><a href='../../index.html#work'>Back to Work</a></div>
+        <div class='space'></div>
+    </div>
 
-			<div class="header-grid-item">
-				<p id="projectname">Lose the Snooze</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-			<div class="header-grid-item links">
-				<p id="links">
-					<a href="../../index.html">Work</a>&nbsp;&nbsp;
-					<a href="../../other-files/play.html">Play</a>&nbsp;&nbsp;
-					<a href="../../other-files/about.html" >About</a>&nbsp;&nbsp;
-					<a target="_blank" href="https://drive.google.com/file/d/1TKkzHRxgb_s-xHr2uJjUELZ3OqYbQEd1/view?usp=sharing"
-					>Resume</a>
-				</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-		</div>
-	</div>
-<!--start content-->
-	<p class="project_paragraph">
-    Alarm clock app created with a small group for New Member Education process of <a href="https://dukecatalyst.co" target="_blank">Catalyst</a>
-    (Duke social and pre-professional tech organization).
-    Check out our code on <a href="https://github.com/fny/lose-the-snooze" target="_blank">Github</a>.
-
-  </p>
-	<div>
-		<a href="top.jpeg" target="_blank">
-				<img src="top.jpeg" /></a>
-	</div>
-  <br/><br/>
-  <div>
-		<a href="bottom.jpeg" target="_blank">
-				<img src="bottom.jpeg" /></a>
-	</div>
-
-
-
-
-	<script src="../scripts/imagesloaded.pkgd.min.js"></script>
-	<script src="../scripts/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="../scripts/grid_setup.js"></script>
-
-</body>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+        window.sr = ScrollReveal({ reset: false});
+        sr.reveal('.reveal', { duration: 1000, distance: '50px', useDelay: 'once',scale: 1,});
+        </script>
+  </body>
 </html>

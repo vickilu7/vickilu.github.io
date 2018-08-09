@@ -1,110 +1,72 @@
-
 <!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Play – Vicki Lu</title>
+    <link rel='stylesheet' href='../stylesheet.css'/>
+    <link rel="icon" type="image/png" href="../cover-images/fav.png">
+  </head>
+  <body>
+    <div class='menu-container'>
+      <div class='menu'>
+        <div class='logo'><a href='../index.html'>Vicki Lu</a></div>
+        <div class='links'>
+          <div class='work'><a href='../index.html'>Work</a></div>
+          <div class='play active'><a href='play.html'>Play</a></div>
+          <div class='about'><a href='about.html'>Me</a></div>
+          <div class='resume'><a href='https://drive.google.com/file/d/1YLNjQkBGcxbbvvaaCr7JIRRjDua7BMDk/view?usp=sharing' target='_blank'>Resume</a></div>
+        </div>
+      </div>
+    </div>
+<!--title screen-->
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="icon" type="image/png" href="../images/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<title>Play – Vicki Lu</title>
-</head>
-
-<body class="home">
-
-	<div id="header_container">
-		<div id="header">
-
-			<div class="header-grid-item">
-				<p id="name">Vicki Lu</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-			<div class="header-grid-item links">
-				<p id="links">
-					<a href="../index.html">Work</a>&nbsp;&nbsp;
-					<a style="color: #fd6d6d; border-bottom: 1px solid #d0d0d0;">Play</a>&nbsp;&nbsp;
-					<a href="../other-files/about.html">About</a>&nbsp;&nbsp;
-					<a target="_blank" href="https://drive.google.com/file/d/1TKkzHRxgb_s-xHr2uJjUELZ3OqYbQEd1/view?usp=sharing"
-					>Resume</a>
-				</p>
-			</div>
-
-			<div class="header-grid-item">
-				<!-- empty space -->
-			</div>
-
-		</div>
-	</div>
-
-	<div id="work">
-
-	<div class="portfolio-grid" id="main_grid">
-
-		<div class="portfolio-grid-item">
-			<a href="../other-files/myt/myt.html">
-				<img src="../images/myt.png"/>
-			</a>
-			<div class="grid-caption">
-				<p class="project_title">Bitcamp 2018 Colorwar Design</p>
-				<p class="categories">Digital Art</p>
-			</div>
-		</div>
-
-		<div class="portfolio-grid-item">
-			<a href="../other-files/constellation-alphabet/constellation-alphabet.html">
-				<img src="../images/constellation-square.png" />
-			</a>
-			<div class="grid-caption">
-				<p class="project_title">Constellation Alphabet</p>
-				<p class="categories">Digital Art</p>
-			</div>
-		</div>
-
-		<div class="portfolio-grid-item">
-			<a href="../other-files/fine-arts/fine-arts.html">
-				<img src="../images/Exposure_painting.jpg" />
-			</a>
-			<div class="grid-caption">
-				<p class="project_title">Fine Arts</p>
-				<p class="categories">Oil, Acrylic, Pencil</p>
-			</div>
-		</div>
+<div class='header reveal'>
+  <!--<div class='title'>Play</div>-->
+  <div class='home-image reveal' style='margin-top:70px;'><img src='../cover-images/comingsoon.png'/></div>
+  <div class='subtitle-play content-container'>page under construction but you can view
+    some cool & fun ventures <a href='https://www.behance.net/vickilu777ab95' target="_blank" style='text-decoration:none;'>here</a>.
+  </div>
 
 
-		<!-- Grid Filler(s) -->
-		<div class="portfolio-grid-item filler"></div>
-		<div class="portfolio-grid-item filler"></div>
+  <div class='space'></div>
+</div>
+<!--projects-->
+    <!--  <div class='grid-row reveal'>
+        <div class='grid-item2'>
+        <div class='grid-title'>
+          <strong>Logofolio</strong><br/>Graphic Design
+        </div>
+        <a href="logos.html"><img src='#'/></a>
+      </div>
+          <div class='grid-item2'>
+            <div class='grid-title'>
+              <strong>Constellation Alphabet</strong><br/>Digital Art
+            </div>
+            <a href="constellations.html"><img src='#'/></a>
+          </div>
+        </div>
+      <div class='grid-row reveal'>
+          <div class='grid-item2'>
+            <div class='grid-title'>
+              <strong>Mark Your Trail</strong><br/>Brand Concept/Digital Art
+            </div>
+            <a href="myt.html"><img src='#'/></a>
+          </div>
+            <div class='grid-item2'>
+              <div class='grid-title'>
+                <strong>Fine Arts</strong><br/>Oil, Acrylic, Pencil
+              </div>
+              <a href="fine-arts.html"><img src='#'/></a>
+            </div>
+          </div> -->
 
+      <div class='space'></div>
 
-	</div>
-	</div>
-<!--start of footer area-->
-	<div id="footer_container">
-	<div id="footer">
-		<div class="footer-grid-item">
-			<p> © Vicki Lu, 2018</p>
-		</div>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+          <script>
+          window.sr = ScrollReveal({ reset: false});
+          sr.reveal('.reveal', { duration: 1000, distance: '50px', useDelay: 'once',scale: 1,});
+          </script>
 
-		<div class="footer-grid-item">
-			<!-- empty space -->
-		</div>
-
-		<div class="footer-grid-item">
-			<!-- empty space -->
-		</div>
-	</div>
-	</div>
-
-
-	<script src="scripts/imagesloaded.pkgd.min.js"></script>
-	<script src="scripts/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="scripts/grid_setup.js"></script>
-
-</body>
+  </body>
 </html>
