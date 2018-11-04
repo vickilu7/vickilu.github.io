@@ -16,6 +16,12 @@
   font-weight: bold;
 }
 @font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
   font-family: 'OpenSans';
   src: url('OpenSans-Regular-webfont.woff') format('woff');
   font-style: normal;
@@ -40,7 +46,7 @@ strong {
 /*title screen*/
 .home-title{
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 35px;
   color: #333;
   text-align: center;
@@ -48,6 +54,9 @@ strong {
 }
 .home-title strong{
   color: #5995DA;
+}
+.home-title b{
+  font-weight: 400;
 }
 .home-image{
   margin: 100px 45px 0 45px;
@@ -248,7 +257,7 @@ strong {
 
 .subtitle-play{
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 28px;
   /*color:#5D6063;*/
   color: #333;
@@ -397,7 +406,7 @@ strong {
 }
 .icon-grid-item img:hover{
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 0.6s ease;
 }
 #back{
   position:absolute;
@@ -405,7 +414,7 @@ strong {
   left: 25.5%;
   z-index: 1;
   opacity: 1;
-  width: 49.5%;
+  width: 49.25%;
 }
 
 .icon-grid-item .title{
